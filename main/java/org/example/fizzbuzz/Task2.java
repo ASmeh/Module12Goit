@@ -28,7 +28,7 @@ public class Task2 {
         NumberProcessor numberProcessorFizzBuzz = new NumberProcessor((numb)->fizzBuzz.fizzBuzz(numb),n);
         NumberProcessor numberProcessorNotFizzBuzz = new NumberProcessor((numb)->fizzBuzz.notFizzBuzz(numb),n);
         List<NumberProcessor> threadList = new ArrayList<>();
-        ////////////////////////////////////////////
+
         threadList.add(numberProcessorFizz);
         threadList.add(numberProcessorBuzz);
         threadList.add(numberProcessorFizzBuzz);
