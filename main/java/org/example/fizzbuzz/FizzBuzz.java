@@ -12,21 +12,21 @@ public class FizzBuzz {
     public void fizz(int n) {
         if (n % 3 == 0) {
             queue.add("fizz");
-            //System.out.println("fizz");
+            System.out.println("fizz");
         }
     }
 
     public void buzz(int n) {
         if (n % 5 == 0) {
             queue.add("buzz");
-            //System.out.println("buzz");
+            System.out.println("buzz");
         }
     }
 
     public void fizzBuzz(int n) {
         if (n % 3 == 0 && n % 5 == 0) {
             queue.add("fizzbuzz");
-            //System.out.println("fizzbuzz");
+            System.out.println("fizzbuzz");
         }
     }
 
@@ -34,7 +34,7 @@ public class FizzBuzz {
 
         if (n % 3 != 0 && n % 5 != 0) {
             queue.add(String.valueOf(n));
-            //System.out.println(n);
+            15System.out.println(n);
         }
     }
 }
