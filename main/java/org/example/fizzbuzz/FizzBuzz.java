@@ -34,7 +34,7 @@ public class FizzBuzz {
 
         if (n % 3 != 0 && n % 5 != 0) {
             queue.add(String.valueOf(n));
-            15System.out.println(n);
+            System.out.println(n);
         }
     }
 }
